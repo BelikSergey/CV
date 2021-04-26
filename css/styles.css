@@ -1,0 +1,225 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a {
+	color: #39a39a;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	/* font-size: medium; */
+}
+body {
+	background-color: #aeafb3;
+	padding: 40px;
+	font-family: Montserrat;
+	/* color: #fff;   */
+}
+.main-paper {
+	/* background-color: #ebebece3; */
+	background-color: #fff;
+	display: flex;
+	max-width: 1000px;
+	padding: 15px;
+	margin: 0 auto;
+	box-shadow: -100px 100px 60px rgba(0, 0, 0, 0.35);
+}
+
+.aside-main-conteiner {
+	background-color: #4e4e4e;
+	max-width: 370px;
+	/*height: 1320px;*/
+	/* padding-top: 40px; */
+	padding-bottom: 40px;
+	color: #fff;
+}
+.my-photo {
+	width: 370px;
+}
+.aside-wrapper {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+.main-content-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.about-me-conteiner {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.contacts-conteiner {
+	margin-top: 60px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.Contacts-title {
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.my-contacts {
+	color: #39a39a;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 20px;
+}
+.Contacts-link {
+	color: #535b67;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.cont-title-c-e {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-right: 10px;
+}
+/*.tech-skills-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+*/
+.t-h-conteiner {
+	margin-right: 40px;
+	margin-top: 55px;
+	margin-left: 40px;
+}
+.t-h-title {
+	color: #30d5c8;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 15px;
+}
+.t-h-title-txt {
+	color: #a5a9af;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	/*margin-left: 0;*/
+}
+.soft-skils-conteiner {
+	margin-right: 40px;
+	margin-top: 55px;
+	margin-left: 40px;
+}
+
+.my-info-1st-title {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+.my-name {
+	color: #000000;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 89px;
+	/* margin-bottom: 25px; */
+}
+.info-bottom-my-name {
+	color: #5e5e5e;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 64px;
+}
+.about-me-title {
+	/* color: #000000; */
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.project-links {
+	color: #595959;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.dotted {
+	color: #595959;
+	font-size: 10px;
+	font-weight: 100;
+}
+.project-links-conteiner {
+	margin-left: 17px;
+	margin-bottom: 55px;
+}
+/*.w-e-title {
+  color: #000000;
+margin-bottom: 15px;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+}*/
+
+.f-place-prof-title {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-top: 10px;
+	/* margin-bottom: 15px; */
+}
+.place-prof-title {
+	color: #39a39a;
+	/* margin-left: 20px; */
+	/* margin-bottom: 20px; */
+}
+.Prof-title-time {
+	display: inline-block;
+	color: #a8a8a8;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+.education-container {
+	padding-left: 20px;
+}
+.drun {
+	color: #000000;
+}
+.work-txt {
+	list-style: none;
+	color: #595959;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 14px;
+	/* margin-bottom: 45px; */
+	padding-left: 20px;
+}
+.manager {
+	color: #000000;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.expirience-text {
+	padding-left: 20px;
+	color: #595959;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
