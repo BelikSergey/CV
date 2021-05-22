@@ -6,10 +6,13 @@
 a {
 	color: #39a39a;
 	text-decoration: none;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 24px;
 	/* font-size: medium; */
+}
+p {
+	text-align: justify;
 }
 body {
 	background-color: #aeafb3;
@@ -133,7 +136,7 @@ body {
 	color: #000000;
 	font-size: 45px;
 	font-weight: 700;
-	line-height: 89px;
+	/* line-height: 89px; */
 	/* margin-bottom: 25px; */
 }
 .info-bottom-my-name {
@@ -149,7 +152,7 @@ body {
 	font-size: 22px;
 	font-weight: 700;
 	line-height: 24px;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 .project-links {
 	color: #595959;
