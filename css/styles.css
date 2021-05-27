@@ -14,12 +14,11 @@ a {
 p {
 	text-align: justify;
 }
-body {
+/* body {
 	background-color: #aeafb3;
 	padding: 40px;
 	font-family: Montserrat;
-	/* color: #fff;   */
-}
+} */
 .main-paper {
 	/* background-color: #ebebece3; */
 	background-color: #fff;
@@ -27,7 +26,7 @@ body {
 	max-width: 1000px;
 	padding: 15px;
 	margin: 0 auto;
-	box-shadow: -100px 100px 60px rgba(0, 0, 0, 0.35);
+	/* box-shadow: -100px 100px 60px rgba(0, 0, 0, 0.35); */
 }
 
 .aside-main-conteiner {
