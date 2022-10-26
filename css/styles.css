@@ -100,7 +100,7 @@ body {
 	margin-bottom: 0;
 	display: block;
 	width: 100%;
-	height: auto;
+	/*height: auto;*/
 	object-fit: cover;
 	}
 	
@@ -116,7 +116,7 @@ body {
 	.aside-wrapper  {
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-top: 40px;
+	padding-top: 20px;
 		margin-bottom: 0;
 	}
 	
@@ -125,7 +125,7 @@ body {
 	.aside-wrapper  {
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-top: 40px;
+	padding-top: 20px;
 	}
 	
 	}
@@ -134,7 +134,7 @@ body {
 
 .main-content-wrapper {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
 } 
 
 .about-me-conteiner {
@@ -155,10 +155,7 @@ body {
 	} */
 	@media screen and (min-width:769px) {
 	.about-me-conteiner {
-		padding-left: 60px;
-		padding-right: 60px;
-		padding-bottom: 60px;
-		padding-top: 60px;
+		padding: 20px 20px 20px 25px;
 	}
 	
 	}
@@ -235,8 +232,9 @@ body {
 @media screen and (min-width:421px) {
 	.my-name {
 	color: #000000;
-	font-size: 45px;
+	font-size: 35px;
 	font-weight: 700;
+		margin-bottom: 10px;
 	}
 	
 	}
@@ -250,10 +248,10 @@ body {
 @media screen and (min-width:421px) {
 	.my-info-1st-title {
 	color: #000000;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 24px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	}
 	
 	}
@@ -272,7 +270,7 @@ body {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 
 }
 
@@ -305,6 +303,14 @@ body {
 	margin-top: 14px;
 	padding-left: 20px;
 }
+ .current-work-txt {
+	 color: #aeafb3;
+	 font-size: 14px;
+	 font-weight: 400;
+	 line-height: 24px;
+	 margin-bottom: 14px;
+	 padding-left: 20px;
+ }
 
 @media screen and (min-width:421px) {
 	.work-txt {
