@@ -275,7 +275,22 @@ body {
   .job-meta { text-align: left; }
 }
 
+@page { size: A4; margin: 8mm; }
+
 @media print {
-  body { background: #fff; padding: 0; }
-  .cv-wrap { box-shadow: none; max-width: 100%; }
+  body { background: #fff; padding: 0; line-height: 1.5; }
+  .cv-wrap { box-shadow: none; max-width: 100%; border-radius: 0; }
+  .sidebar { padding: 8px 0 20px; }
+  .sidebar-section { padding: 18px 20px 0; }
+  .main { padding: 24px 26px; }
+  .hero { margin-bottom: 18px; }
+  .name { font-size: 30px; }
+  .title { margin-bottom: 10px; }
+  .summary { font-size: 12.5px; line-height: 1.5; max-width: none; }
+  .section { margin-bottom: 16px; }
+  .section-title { margin-bottom: 12px; padding-bottom: 6px; }
+  .job { margin-bottom: 16px; }
+  .job-points { margin-bottom: 8px; }
+  .job-points li { font-size: 12px; line-height: 1.45; margin-bottom: 2px; }
+  .job-desc { font-size: 12.5px; line-height: 1.5; }
 }
