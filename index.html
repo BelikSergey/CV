@@ -3,31 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sergey Belik — Frontend Developer</title>
-  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Sergey Belik — Frontend Developer (React, TypeScript, Next.js)</title>
+  <meta name="description" content="Frontend developer with 5 years of commercial experience: React, TypeScript, Next.js, MobX, Service Workers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
   <div class="cv-wrap">
 
     <!-- LEFT SIDEBAR -->
     <aside class="sidebar">
-      <div class="photo-wrap">
-        <img class="photo" src="./img/photo-CV2.jpg" alt="Sergey Belik" />
-      </div>
-
       <div class="sidebar-section">
         <h3 class="sidebar-heading">Tech Skills</h3>
         <ul class="skill-list">
-          <li>JavaScript ES6+</li>
-          <li>React.js</li>
+          <li>TypeScript</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Next.js</li>
           <li>MobX / Redux</li>
-          <li>HTML5 / CSS3 / SASS</li>
-          <li>REST API</li>
-          <li>WebSocket</li>
-          <li>Webpack</li>
-          <li>Node.js</li>
+          <li>HTML / CSS / SCSS / Tailwind</li>
+          <li>Service Workers</li>
+          <li>WebSocket / REST API</li>
+          <li>Jest / Playwright</li>
           <li>Git</li>
+          <li>AI-assisted development</li>
         </ul>
       </div>
 
@@ -77,9 +78,9 @@
 
       <header class="hero">
         <h1 class="name">Sergey Belik</h1>
-        <p class="title">Middle Frontend Developer</p>
+        <p class="title">Frontend Developer · React / TypeScript / Next.js</p>
         <p class="summary">
-          Frontend developer with 4+ years of commercial experience building and maintaining a SaaS product used by 800,000+ people. I work across the full UI stack — from component design to API integration — and take ownership of features end-to-end.
+          Frontend developer with 5 years of commercial experience on xTiles, a collaborative SaaS workspace used by 800,000+ people. I own features end-to-end — from architecture and state design to production — and have worked across nearly every part of the product. Ten years in sales management before tech means I work comfortably with product, design and business stakeholders. I use AI tools daily in a review-driven workflow.
         </p>
       </header>
 
@@ -97,16 +98,26 @@
             </div>
             <div class="job-meta">
               <span class="job-period">July 2021 — present</span>
-              <span class="job-location">Ukraine</span>
+              <span class="job-location">Remote, Ukraine</span>
             </div>
           </div>
-          <p class="job-desc">
-            Owned frontend features end-to-end across a product used by 800,000+ people. Among other things, built the Pomodoro timer, tab navigation, and content parsing engine that structures external pages into tiles by heading hierarchy. Worked closely with designers, backend engineers, and business stakeholders — from spec to production. Stack: React, MobX, WebSocket, REST API.
-          </p>
+          <ul class="job-points">
+            <li>Designed and built the Pomodoro timer on a Service Worker: timer state shared across browser tabs and kept alive after a tab is closed, with system notifications, daily usage limits and upgrade flows.</li>
+            <li>Built the public form page in Next.js (SSR): form filling for unauthenticated users with session-token auth, validation and analytics.</li>
+            <li>Moved task creation to a new flow while keeping the legacy flow fully working, so both ran in production side by side.</li>
+            <li>Migrated drag-and-drop from smooth-dnd to dnd-kit and added list virtualization for large datasets.</li>
+            <li>Handled real-time updates over WebSocket to keep shared workspace state in sync.</li>
+            <li>Built a code block for the rich-text editor, new attribute types for collections, tab navigation, and a parser that turns external web pages into structured tiles by heading hierarchy.</li>
+            <li>Worked with design, backend and product from spec to production; instrumented features with Amplitude analytics.</li>
+          </ul>
           <ul class="job-stack">
+            <li>TypeScript</li>
             <li>React</li>
+            <li>Next.js</li>
             <li>MobX</li>
+            <li>Service Workers</li>
             <li>WebSocket</li>
+            <li>dnd-kit</li>
             <li>REST API</li>
           </ul>
         </div>
@@ -131,15 +142,13 @@
       <!-- EDUCATION -->
       <section class="section">
         <h2 class="section-title">Education</h2>
-        <div class="edu">
-          <div class="job-header">
-            <div>
-              <h3 class="job-company">GoIT Academy</h3>
-              <p class="job-role">Full Stack Developer</p>
-            </div>
-            <div class="job-meta">
-              <span class="job-period">May 2020 — May 2021</span>
-            </div>
+        <div class="job-header">
+          <div>
+            <h3 class="job-company">GoIT Academy</h3>
+            <p class="job-role">Full Stack Developer</p>
+          </div>
+          <div class="job-meta">
+            <span class="job-period">May 2020 — May 2021</span>
           </div>
         </div>
       </section>
