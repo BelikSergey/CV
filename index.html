@@ -24,9 +24,10 @@
           <li>Next.js</li>
           <li>MobX / Redux</li>
           <li>HTML / CSS / SCSS / Tailwind</li>
-          <li>Service Workers</li>
+          <li>Service Workers / IndexedDB</li>
           <li>WebSocket / REST API</li>
-          <li>Jest</li>
+          <li>Jest / Testing Library</li>
+          <li>Lexical</li>
           <li>Git</li>
           <li>AI-assisted development</li>
         </ul>
@@ -63,7 +64,7 @@
           </li>
           <li>
             <span class="contact-icon">in</span>
-            <a href="https://www.linkedin.com/in/serhii-bielik-74254a1b4" target="_blank">serhii-bielik</a>
+            <a href="https://linkedin.com/in/sergey-belik-74254a1b4" target="_blank">sergey-belik</a>
           </li>
         </ul>
       </div>
@@ -98,15 +99,15 @@
             </div>
           </div>
           <ul class="job-points">
-            <li>Designed and built the Pomodoro timer on a Service Worker: timer state shared across browser tabs and kept alive after a tab is closed, with system notifications, daily usage limits and upgrade flows.</li>
-            <li>Built the public form page in Next.js (SSR): form filling for unauthenticated users with session-token auth, validation and analytics.</li>
-            <li>Implemented tile styling end-to-end from design mockups — the settings popover and 32 colours × 8 style variants built on CSS custom properties, so nested blocks inherit colours through the cascade, with adjusted shades on matching tiles to stay readable.</li>
-            <li>Moved task creation to a new flow while keeping the legacy flow fully working, so both ran in production side by side.</li>
-            <li>Migrated drag-and-drop from smooth-dnd to dnd-kit and added list virtualization for large datasets.</li>
-            <li>Handled real-time updates over WebSocket to keep shared workspace state in sync.</li>
-            <li>Built a code block type with syntax highlighting for multiple languages (HTML, JSON, JavaScript and more), a language switcher and copy to clipboard.</li>
-            <li>Added new attribute types for collections, tab navigation, and a parser that turns external web pages into structured tiles by heading hierarchy.</li>
-            <li>Covered business logic with Jest unit tests.</li>
+            <li>Built the Pomodoro timer on a Service Worker: state in IndexedDB, deadline-based timing that background-tab throttling can't skew, notifications only when no tab is visible, daily usage limits.</li>
+            <li>Designed and built a modular onboarding system from scratch: trigger scenarios, a bubble registry, an activator factory, a display-rule engine, and store, service and API layers.</li>
+            <li>Built the Form view of collections from scratch: form builder and publishing, a public form page in Next.js (SSR), file uploads with limits, mobile layout.</li>
+            <li>Designed a unified navigation pipeline (intent → resolver → executor) for notifications, deep links and Location attributes, with resolvers covered by tests.</li>
+            <li>Extended the paste and drag-and-drop pipeline that splits content from browsers and AI chats into tiles by headings, backed by ~90 test cases.</li>
+            <li>Handled the frontend of moving tasks into a dedicated collection, keeping both legacy and new task formats working.</li>
+            <li>Built the Lexical code block with syntax highlighting, a language switcher and editor plugins; added new tile styles, a colour palette and dark/light themes.</li>
+            <li>Migrated drag-and-drop to dnd-kit, added list virtualization, handled real-time updates over WebSocket.</li>
+            <li>In 2026 moved to systematic testing: 130+ test files with Jest, Testing Library and ts-mockito, including regression tests.</li>
             <li>Worked with design, backend and product from spec to production; instrumented features with Amplitude analytics.</li>
           </ul>
           <ul class="job-stack">
@@ -114,8 +115,9 @@
             <li>React</li>
             <li>Next.js</li>
             <li>MobX</li>
-            <li>Service Workers</li>
+            <li>Service Workers / IndexedDB</li>
             <li>WebSocket</li>
+            <li>Lexical</li>
             <li>dnd-kit</li>
             <li>REST API</li>
             <li>Jest</li>
