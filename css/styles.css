@@ -282,15 +282,15 @@ body {
   .cv-wrap { box-shadow: none; max-width: 100%; border-radius: 0; }
   .sidebar { padding: 8px 0 20px; }
   .sidebar-section { padding: 18px 20px 0; }
-  .main { padding: 24px 26px; }
-  .hero { margin-bottom: 18px; }
+  .main { padding: 20px 26px; }
+  .hero { margin-bottom: 14px; }
   .name { font-size: 30px; }
   .title { margin-bottom: 10px; }
   .summary { font-size: 12.5px; line-height: 1.5; max-width: none; }
-  .section { margin-bottom: 16px; }
+  .section { margin-bottom: 10px; }
   .section-title { margin-bottom: 12px; padding-bottom: 6px; }
-  .job { margin-bottom: 16px; }
-  .job-points { margin-bottom: 8px; }
-  .job-points li { font-size: 12px; line-height: 1.45; margin-bottom: 2px; }
+  .job { margin-bottom: 10px; }
+  .job-points { margin-bottom: 6px; }
+  .job-points li { font-size: 12px; line-height: 1.42; margin-bottom: 1px; }
   .job-desc { font-size: 12.5px; line-height: 1.5; }
 }
