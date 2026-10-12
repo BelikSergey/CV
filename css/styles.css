@@ -278,6 +278,7 @@ body {
 @page { size: A4; margin: 8mm; }
 
 @media print {
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   body { background: #fff; padding: 0; line-height: 1.5; }
   .cv-wrap { box-shadow: none; max-width: 100%; border-radius: 0; }
   .sidebar { padding: 8px 0 20px; }
