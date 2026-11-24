@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Serhii Bielik — Frontend Developer (React, TypeScript, Next.js)</title>
-  <meta name="description" content="Frontend developer with 5 years of commercial experience: React, TypeScript, Next.js, MobX, Service Workers." />
+  <title>Serhii Bielik — Frontend Engineer (React, TypeScript, Next.js)</title>
+  <meta name="description" content="Serhii Bielik — Frontend Engineer (React, TypeScript, Next.js)" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://cv-belik-sergey-frontend-developer.netlify.app/" />
-  <meta property="og:title" content="Serhii Bielik — Frontend Developer" />
-  <meta property="og:description" content="Frontend developer with 5 years of commercial experience: React, TypeScript, Next.js, MobX, Service Workers." />
+  <meta property="og:url" content="https://serhii-bielik.netlify.app/" />
+  <meta property="og:title" content="Serhii Bielik — Frontend Engineer (React, TypeScript, Next.js)" />
+  <meta property="og:description" content="Serhii Bielik — Frontend Engineer (React, TypeScript, Next.js)" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111318'/%3E%3Ctext x='16' y='21.5' font-family='Arial,sans-serif' font-size='14' font-weight='700' fill='%237AA5FF' text-anchor='middle'%3ESB%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,10 +22,18 @@
     <main class="main">
 
       <header class="hero">
-        <h1 class="name">Serhii Bielik</h1>
-        <p class="title">Frontend Developer · React / TypeScript / Next.js</p>
+        <div class="hero-top">
+          <div>
+            <h1 class="name">Serhii Bielik</h1>
+            <p class="title">Frontend Engineer · React, TypeScript, Next.js</p>
+          </div>
+          <a class="pdf-btn" href="/Serhii_Bielik_Frontend_Engineer_CV.pdf" download="Serhii_Bielik_Frontend_Engineer_CV.pdf">
+            <svg class="pdf-btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 21h14"/></svg>
+            Download PDF
+          </a>
+        </div>
         <p class="summary">
-          Frontend developer (React, TypeScript, Next.js) with 5 years on xTiles, a collaborative SaaS workspace used by 800,000+ people in 6 languages. I own complex product features end to end: browser features on Service Workers, forms with SSR pages, real-time collaboration and tests. Ten years in sales before tech, so I work comfortably with product and business. Daily agentic workflow with Claude Code.
+          Frontend Engineer with 5+ years of commercial experience developing complex product UI with React, TypeScript, and Next.js. At xTiles, a collaborative SaaS workspace (800,000+ users, 6 languages), owned end-to-end features from spec to production: SSR public forms, Service Worker &amp; IndexedDB tools, real-time WebSocket boards, modular onboarding, and automated tests. Collaborative engineer experienced with Figma delivery, analytics, and spec-driven AI workflows (Claude Code, Codex).
         </p>
       </header>
 
@@ -37,53 +45,40 @@
           <div class="job-header">
             <div>
               <h3 class="job-company">
-                <a href="https://xtiles.app/en" target="_blank">xTiles</a>
+                <a href="https://xtiles.app/en" target="_blank" rel="noopener">xTiles</a> — Collaborative SaaS Workspace (800,000+ users)
               </h3>
-              <p class="job-role">Frontend Developer</p>
+              <p class="job-role">Frontend Engineer</p>
             </div>
             <div class="job-meta">
-              <span class="job-period">Jul 2021 — Oct 2026</span>
+              <span class="job-period">07/2021 – 10/2026</span>
               <span class="job-location">Kremenchuk, Ukraine · Remote</span>
             </div>
           </div>
-          <ul class="job-points">
-            <li>Built the collections Form view from scratch: a form builder with React Hook Form validation, file uploads, and a public SSR form page in Next.js that anyone can fill in without an account.</li>
-            <li>Built a Pomodoro timer on a Service Worker with one shared state across browser tabs in IndexedDB; timing stays accurate even when the browser throttles background tabs.</li>
-            <li>Designed and built a modular onboarding system from scratch (trigger scenarios, display-rule engine): a new onboarding flow needs only a scenario and a trigger, and the engine handles positioning and display.</li>
-            <li>Designed a unified navigation pipeline (intent → resolver → executor) that replaced scattered navigation logic for notifications, deep links and Location attributes, so they all use one tested mechanism and new entry points are simple to add.</li>
-            <li>Migrated drag-and-drop to dnd-kit, added list virtualization for large boards and real-time updates over WebSocket, so changes from other users appear without a reload.</li>
-            <li>Wrote unit and regression tests with Jest and Testing Library as part of feature work, including ~90 test cases for the paste pipeline from browsers and AI chats.</li>
-            <li>Worked in an agentic workflow: delegated complete tasks to Claude Code, used a separate agent for pull request review, and reviewed the final code myself.</li>
-            <li>Reviewed teammates' pull requests, took part in sprint planning and estimation, and worked with design, backend and product from spec to production.</li>
-          </ul>
           <ul class="job-stack">
             <li>TypeScript</li>
             <li>React</li>
-            <li>Next.js</li>
+            <li>Next.js (SSR)</li>
             <li>MobX</li>
-            <li>Service Workers / IndexedDB</li>
+            <li>SCSS</li>
+            <li>Tailwind CSS</li>
+            <li>Webpack</li>
+            <li>Service Workers</li>
+            <li>IndexedDB</li>
             <li>WebSocket</li>
             <li>Lexical</li>
             <li>dnd-kit</li>
-            <li>REST API</li>
+            <li>i18next</li>
             <li>Jest</li>
           </ul>
-        </div>
-
-        <div class="job">
-          <div class="job-header">
-            <div>
-              <h3 class="job-company">TM Vitan</h3>
-              <p class="job-role">Head of VIP Clients Department</p>
-            </div>
-            <div class="job-meta">
-              <span class="job-period">Mar 2011 — Jun 2021</span>
-              <span class="job-location">Ukraine</span>
-            </div>
-          </div>
-          <p class="job-desc">
-            Progressed from sales manager to department head over 10 years. Managed key accounts including EpicentrK, Nova Linia, and Flagman, handling the full cycle from production to delivery and payment.
-          </p>
+          <ul class="job-points">
+            <li><strong>Collections Form View (Next.js SSR):</strong> Built the Form view MVP from scratch with React Hook Form validation, size-limited file uploads, and public Next.js SSR pages accessible without an account, instrumented with Amplitude.</li>
+            <li><strong>Service Worker Pomodoro Timer:</strong> Built a cross-tab timer on Service Workers and IndexedDB with shared deadline-based timing accurate under background tab throttling and notifications shown only when no tab is visible.</li>
+            <li><strong>Modular Onboarding System:</strong> Designed a declarative onboarding engine (trigger scenarios, display-rule engine, activator factory) so new flows require only a scenario and entry trigger while the engine handles display.</li>
+            <li><strong>Unified Navigation Pipeline:</strong> Designed a unified navigation pipeline (intent → resolver → executor) replacing scattered routing logic across notifications, deep links, and Location attributes behind one tested mechanism.</li>
+            <li><strong>Real-Time Boards, Virtualization &amp; Migration:</strong> Migrated DnD to dnd-kit, added list virtualization, cut re-renders, optimized image assets, handled WebSocket updates, and migrated tasks to a live collection with zero disruption.</li>
+            <li><strong>Editor Plugins &amp; Testing:</strong> Built the Lexical code block with syntax highlighting, editor plugins, tile styles, and themes; wrote Jest, RTL, and ts-mockito tests including ~90 test cases for the browser/AI-chat paste pipeline.</li>
+            <li><strong>Collaboration &amp; AI-Assisted Delivery:</strong> Reviewed teammates' PRs, joined architectural discussions and sprint planning, collaborated with design, backend, and product teams, and accelerated delivery with Claude Code and Codex.</li>
+          </ul>
         </div>
       </section>
 
@@ -93,22 +88,8 @@
         <div class="job">
           <div class="job-header">
             <div>
-              <h3 class="job-company">GoIT Academy</h3>
-              <p class="job-role">Full Stack Developer</p>
-            </div>
-            <div class="job-meta">
-              <span class="job-period">May 2020 — May 2021</span>
-            </div>
-          </div>
-        </div>
-        <div class="job">
-          <div class="job-header">
-            <div>
-              <h3 class="job-company">Kremenchuk Mykhailo Ostrohradskyi National University</h3>
-              <p class="job-role">Specialist degree, Mechanical Engineering</p>
-            </div>
-            <div class="job-meta">
-              <span class="job-period">2004 — 2009</span>
+              <h3 class="job-company">Specialist Degree in Mechanical Engineering</h3>
+              <p class="job-role">Kremenchuk Mykhailo Ostrohradskyi National University</p>
             </div>
           </div>
         </div>
@@ -121,19 +102,22 @@
       <div class="sidebar-section">
         <h2 class="sidebar-heading">Tech Skills</h2>
         <ul class="skill-list">
-          <li>TypeScript</li>
-          <li>JavaScript</li>
-          <li>React / React Hooks</li>
-          <li>Next.js</li>
+          <li>TypeScript &amp; JavaScript (ES6+)</li>
+          <li>React &amp; React Hooks</li>
+          <li>Next.js (SSR)</li>
           <li>MobX</li>
-          <li>HTML / CSS / SCSS / Tailwind</li>
-          <li>Service Workers / IndexedDB</li>
-          <li>WebSocket / REST API</li>
+          <li>HTML5 / CSS3 / SCSS</li>
+          <li>Tailwind CSS &amp; Figma</li>
+          <li>Service Workers &amp; IndexedDB</li>
+          <li>WebSocket &amp; REST API</li>
           <li>React Hook Form</li>
-          <li>Jest / Testing Library</li>
-          <li>Lexical</li>
-          <li>Git</li>
-          <li>AI-assisted development</li>
+          <li>Lexical &amp; dnd-kit</li>
+          <li>i18next &amp; Responsive Web</li>
+          <li>Performance Optimization</li>
+          <li>Jest, RTL &amp; ts-mockito</li>
+          <li>Webpack, ESLint &amp; Prettier</li>
+          <li>Git &amp; Amplitude Analytics</li>
+          <li>Claude Code &amp; Codex</li>
         </ul>
       </div>
 
@@ -146,7 +130,7 @@
           </li>
           <li>
             <span class="lang-name">English</span>
-            <span class="lang-level">A2–B1</span>
+            <span class="lang-level">Intermediate (B1)</span>
           </li>
         </ul>
       </div>
@@ -156,23 +140,23 @@
         <ul class="contact-list">
           <li>
             <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <a href="mailto:datura288@gmail.com">datura288@gmail.com</a>
+            <a href="mailto:serhii.s.bielik@gmail.com">serhii.s.bielik@gmail.com</a>
           </li>
           <li>
             <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             <a href="tel:+380979404297">+380 97 940 42 97</a>
           </li>
           <li>
+            <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span class="contact-text">Kremenchuk, Ukraine · Remote</span>
+          </li>
+          <li>
             <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-            <a href="https://t.me/BelikSergey" target="_blank">t.me/BelikSergey</a>
+            <a href="https://t.me/BelikSergey" target="_blank" rel="noopener">t.me/BelikSergey</a>
           </li>
           <li>
             <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-            <a href="https://www.linkedin.com/in/serhii-bielik-74254a1b4" target="_blank">serhii-bielik</a>
-          </li>
-          <li>
-            <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            <a href="https://cv-belik-sergey-frontend-developer.netlify.app/" target="_blank">Online CV</a>
+            <a href="https://www.linkedin.com/in/serhii-bielik-74254a1b4" target="_blank" rel="noopener">serhii-bielik</a>
           </li>
         </ul>
       </div>
